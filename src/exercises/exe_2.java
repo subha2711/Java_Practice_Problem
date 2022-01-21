@@ -23,7 +23,6 @@ public class exe_2 {
 
 		public static String midVal(String oddLenStr) {
 			int len =oddLenStr.length()/2;
-			
 			if(oddLenStr.length()>3)
 				return oddLenStr.substring(len-1, len+2);
 			else
